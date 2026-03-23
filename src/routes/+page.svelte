@@ -1,11 +1,27 @@
 <script lang="ts">
-	import {register, type User} from "@teamhanko/hanko-elements";
+	import {Hanko, NotFoundError, type User} from "@teamhanko/hanko-elements";
+	import {onMount} from "svelte";
+	import {goto} from "$app/navigation";
+
+	const hankoApi = import.meta.env.VITE_HANKO_API_URL;
 	
-	const getUser = async () => {
-		let hanko = (await register("https://saperate.dev")).hanko;
+	let user : User | undefined = undefined;
+	
+	async function fetchUserData() {
+		const hanko = new Hanko(hankoApi);
 		return await hanko.getCurrentUser();
 	}
-
+	onMount(async () => {
+		let data;
+		try{
+			data = await fetchUserData();
+		}catch (e) { //We were not authorised or there was a technical error, either way go back to homepage
+			goto("/")
+			return;
+		}
+		user = data;
+	});
+	
 </script>
 
 <svelte:head>
@@ -13,17 +29,9 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 THIS IS MAIN
-
-{#await getUser()}
-	<p>Loading stuff</p>
-{:then user}
-	{#if user !== undefined}
-		Hello, ${user.name}
-	{/if}
-{:catch error}
-	<p>Error: {error.message}</p>
-{/await}
-
+{#if user !== undefined}
+	Hello, {user.name}!!!
+{/if}
 
 <style>
 	section {

@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ff9a3bd-adf1-471d-a2a8-c5d901347a67" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ProtectedRoute.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/DashboardLayout.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/profile/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HankoAuth.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HankoAuth.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LogoutButton.svelte" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +27,8 @@
         <option value="dashboardPage" />
         <option value="LogoutButton" />
         <option value="+server.ts" />
+        <option value="ProtectedRoute" />
+        <option value="DashboardLayout" />
       </list>
     </option>
   </component>
@@ -42,6 +50,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -94,13 +103,15 @@
       <workItem from="1773998460423" duration="3683000" />
       <workItem from="1774055475172" duration="5460000" />
       <workItem from="1774168544627" duration="2348000" />
-      <workItem from="1774174937421" duration="4896000" />
+      <workItem from="1774174937421" duration="5390000" />
+      <workItem from="1774224017387" duration="15603000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

@@ -1,9 +1,8 @@
 ﻿<script>
-import HankoProfile from "../../components/HankoProfile.svelte";
-import LogoutButton from "../../components/LogoutButton.svelte";
+    import DashboardLayout from "../../components/dashboard/DashboardLayout.svelte";
+    import HankoProfile from "../../components/HankoProfile.svelte";
 </script>
 
-THIS IS DASHBOARD
-
-<HankoProfile/>
-<LogoutButton/>
+<DashboardLayout>
+    <HankoProfile/>
+</DashboardLayout>

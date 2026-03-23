@@ -1,12 +1,12 @@
 ﻿<script>
     import { onMount } from "svelte";
-    import { navigate } from 'svelte-routing';
     import { register } from "@teamhanko/hanko-elements";
+    import {goto} from "$app/navigation";
 
     const hankoApi = import.meta.env.VITE_HANKO_API_URL;
     const redirectAfterLogin = () => {
         //User logged in
-        navigate("/");//url to navigate to once logged in
+        goto("/");
     };
 
     onMount(async () => {
