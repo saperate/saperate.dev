@@ -1,13 +1,13 @@
 ﻿<script>
     import {register} from "@teamhanko/hanko-elements";
     import {goto} from "$app/navigation";
-
+    
     const logout = async () => {
         const {hanko} = await register(
             "https://saperate.dev"
         );
         await hanko.logout()
-        await goto("/");
+        await goto("/")
     };
 </script>
 
@@ -31,13 +31,13 @@
 </div>
 
 <style>
-    .main_container{
+    .main_container {
         display: flex;
         justify-content: center;
         flex-direction: row;
     }
 
-    .sidebar{
+    .sidebar {
         width: 18%;
         margin: 0 5%;
         background-color: var(--background-color, white);
@@ -46,7 +46,7 @@
         padding: 1% 0;
     }
 
-    .sidebar_element{
+    .sidebar_element {
         color: White; /* Change this when adding themes */
         background-color: var(--color-theme-2);
         border-style: none;
@@ -66,20 +66,20 @@
         text-decoration: none;
     }
 
-    .sidebar_element:hover{
+    .sidebar_element:hover {
         transform: scale(110%);
         transition: ease-out 0.1s;
         cursor: pointer;
     }
 
-    .logout_button{
+    .logout_button {
         background-color: transparent;
         border-color: red;
         color: red;
         border-style: solid;
     }
 
-    .logout_button:hover{
+    .logout_button:hover {
         border-style: dotted;
     }
 </style>
