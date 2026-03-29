@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ff9a3bd-adf1-471d-a2a8-c5d901347a67" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/browser/auth.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HankoAuth.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HankoAuth.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProtectedRoute.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProtectedRoute.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/DashboardLayout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/DashboardLayout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/auth/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/auth/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Header.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
         <option value="+server.ts" />
         <option value="ProtectedRoute" />
         <option value="DashboardLayout" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -104,7 +105,9 @@
       <workItem from="1774224017387" duration="18823000" />
       <workItem from="1774277106018" duration="323000" />
       <workItem from="1774697072963" duration="609000" />
-      <workItem from="1774740915801" duration="540000" />
+      <workItem from="1774740915801" duration="2188000" />
+      <workItem from="1774744282470" duration="2405000" />
+      <workItem from="1774748672257" duration="3082000" />
     </task>
     <servers />
   </component>

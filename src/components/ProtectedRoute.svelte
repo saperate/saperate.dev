@@ -4,7 +4,7 @@
     
     async function validateSession() {
         try {
-            const response = await fetch("http://localhost:5001/validate", {
+            const response = await fetch("/validate", {
                 credentials: "include",
             });
             return response.ok;
