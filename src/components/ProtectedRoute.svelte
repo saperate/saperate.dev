@@ -1,14 +1,12 @@
 ﻿<script>
     import { onMount } from "svelte";
     import {goto} from "$app/navigation";
+    import {getHanko} from "$lib/browser/auth.js";
     
     async function validateSession() {
         try {
-            const response = await fetch("/validate", {
-                credentials: "include",
-            });
-            return response.ok;
-
+            const hanko = await getHanko();
+            return (await hanko.validateSession()).is_valid;
         } catch (error) {
             return false;
         }
@@ -16,7 +14,7 @@
 
     onMount(async () => {
         if(!await validateSession()){
-            goto("/auth");
+            await goto("/auth");
         }
     })
 </script>

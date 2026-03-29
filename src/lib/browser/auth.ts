@@ -3,6 +3,11 @@ import {Hanko} from "@teamhanko/hanko-elements";
 
 const hankoApi = import.meta.env.VITE_HANKO_API_URL;
 
+
+export async function getHanko(){
+    return new Hanko(hankoApi)
+}
+
 export async function getUserOrUndefined() {
     try {
         const hanko = new Hanko(hankoApi);

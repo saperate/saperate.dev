@@ -1,12 +1,10 @@
 ﻿<script>
-    import {register} from "@teamhanko/hanko-elements";
     import {goto} from "$app/navigation";
     import ProtectedRoute from "../ProtectedRoute.svelte";
+    import {getHanko} from "$lib/browser/auth.js";
     
     const logout = async () => {
-        const {hanko} = await register(
-            "https://saperate.dev"
-        );
+        const hanko = await getHanko();
         await hanko.logout()
         await goto("/")
     };

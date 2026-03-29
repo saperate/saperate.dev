@@ -14,7 +14,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 THIS IS MAIN
-{user === undefined ? "" : "Hello " + user.username + "!!!"}
+{user === undefined || user.username === undefined ? "" : "Hello " + user.username.username + "!!!"}
 
 <style>
 	section {
