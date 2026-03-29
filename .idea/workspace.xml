@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ff9a3bd-adf1-471d-a2a8-c5d901347a67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/customize/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/privacy/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/DashboardLayout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/DashboardLayout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProtectedRoute.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProtectedRoute.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/DashboardLayout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/auth/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/auth/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/dashboard/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/account/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/account/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/customize/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/customize/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/privacy/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/privacy/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +114,7 @@
       <workItem from="1774740915801" duration="2188000" />
       <workItem from="1774744282470" duration="2405000" />
       <workItem from="1774748672257" duration="12611000" />
-      <workItem from="1774775171142" duration="2600000" />
+      <workItem from="1774775171142" duration="6346000" />
     </task>
     <servers />
   </component>
@@ -118,6 +123,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

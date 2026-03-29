@@ -1,7 +1,6 @@
 <script>
     import HankoAuth from "../../components/HankoAuth.svelte";
     import {validateSession} from "$lib/browser/auth.js";
-    import {navigate} from "svelte-routing";
     import {afterNavigate, goto} from "$app/navigation";
 
     afterNavigate(async () => {

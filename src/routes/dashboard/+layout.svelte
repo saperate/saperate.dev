@@ -1,7 +1,8 @@
 ﻿<script>
     import {goto} from "$app/navigation";
-    import ProtectedRoute from "../ProtectedRoute.svelte";
+    let { children } = $props();
     import {getHanko} from "$lib/browser/auth.js";
+    import ProtectedRoute from "../../components/ProtectedRoute.svelte";
     
     const logout = async () => {
         const hanko = await getHanko();
@@ -30,7 +31,7 @@
         </button>
     </aside>
     <div style="width: 60%; background-color: white">
-        <slot/>
+        {@render children()}
     </div>
 </div>
 
