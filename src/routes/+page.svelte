@@ -15,3 +15,4 @@
 </svelte:head>
 THIS IS MAIN
 {user === undefined || user.username === undefined ? "" : "Hello " + user.username.username + "!!!"}
+<!-- TODO add a page for donations/commissions, commissions would probably just redirect them to my discord or send a mail -->
